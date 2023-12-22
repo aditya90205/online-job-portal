@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 function SearchBar(props) {
     const [jobCriteria, setJobCriteria] = useState({
         title: "",
-        locaion: "",
+        location: "",
         experience: "",
         type:""
     })
